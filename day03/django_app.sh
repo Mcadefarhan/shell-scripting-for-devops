@@ -69,4 +69,4 @@ if ! deploy; then
     exit 1
 fi
 
-echo "********** DEPLOYMENT DONE *********"
+echo "************ DEPLOYMENT DONE ************"
