@@ -169,7 +169,7 @@ fi
 # ----------------------------------------------------------
 section "SUMMARY"
 # ----------------------------------------------------------
-echo "Diagnostic complete. Upar jo bhi ⚠ (warning) dikha hai, wahi priority se check karo."
-echo "Agar koi warning nahi hai but phir bhi issue hai, to Layer 1 (AWS Status Check)"
-echo "aur Layer 2 (Security Group / NACL) AWS Console/CLI se check karo - yeh shell se"
-echo "instance ke andar se fully verify nahi ho sakte."
+echo "Diagnostic complete. Whichever ⚠ (warning) appeared above, check that first as priority."
+echo "If there's no warning but there's still an issue, then check Layer 1 (AWS Status Check)"
+echo "and Layer 2 (Security Group / NACL) via AWS Console/CLI - these cannot be fully"
+echo "verified from inside the instance via shell."
