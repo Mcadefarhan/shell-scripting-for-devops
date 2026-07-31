@@ -169,7 +169,7 @@ fi
 # ----------------------------------------------------------
 section "SUMMARY"
 # ----------------------------------------------------------
-echo "Diagnostic complete. Whichever ⚠ (warning) appeared above, check that first as priority."
+echo "Diagnostic complete. Whichever ⚠ (warning) appeared above, Check that first as priority."
 echo "If there's no warning but there's still an issue, then check Layer 1 (AWS Status Check)"
 echo "and Layer 2 (Security Group / NACL) via AWS Console/CLI - these cannot be fully"
 echo "verified from inside the instance via shell."
