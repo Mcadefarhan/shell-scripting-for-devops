@@ -5,6 +5,6 @@ echo "My First comment"
 
 <<comment
 This is Multiline
-comment example
+comments example
 comment
 
