@@ -6,6 +6,6 @@ variable
 comment
 
 name="Md Farhan Kalim"
-age =24
+age=24
 
 echo "My name is $name and age is $age"
