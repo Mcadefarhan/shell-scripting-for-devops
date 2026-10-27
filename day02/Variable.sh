@@ -10,6 +10,7 @@ age=24
 
 echo "My name is $name and age is $age"
 
-#using commands as a Variable
-something=$(hostname)
+#using linux commands as a Variable
+Hostname=$(hostname)
+
 echo "My name is $name and i am using hostname $something and my age is $age"
