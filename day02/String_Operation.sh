@@ -15,7 +15,7 @@ echo "Upper charchter String ... ${myVar^^}"
 echo "Lower case ... ${myVar,,}"
 
 #To replace a string 
-new=${myVar/Welcome/Byee}"
+new=${myVar/Welcome/Byee}
 echo "new variable is ... $new" 
 
 #Slicing in String
