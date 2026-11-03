@@ -1,15 +1,13 @@
 #!/bin/bash
-# function with arguments; $1 inside function refers to function's first arg
+#how to use arguments in functions
 
-greet() {
-    echo "Namaste $1 ji!"
+adding(){
+        num1=$1
+        num2=$2
+        let sum=$num1+$num2
+
+        echo "Sum of $num1 and $num2 is $sum"
 }
 
-install_package() {
-    echo "Installing: $1"
-    # sudo apt-get install -y "$1"
-}
+adding 5 10
 
-greet "Farhan "
-greet "Khan"
-install_package "nginx"
